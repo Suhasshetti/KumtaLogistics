@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Bookings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #000;
+        }
+
+        header nav .logo {
+            display: flex;
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        header nav ul {
+            display: flex;
+            align-items: center;
+
+        }
+
+        img {
+            width: 100px;
+            height: 70px;
+            color: red;
+
+
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            list-style: none;
+            margin: 10px 60px;
+            color: white;
+            font-size: 20px;
+        }
+
+        nav ul li a:hover{
+        border-bottom: 1px solid rgb(220, 89, 89);
+        color: rgb(220, 89, 89);
+
+    }
+
+
+
+
+        h2 {
+            position: absolute;
+            right:65%;
+            top: 23%;
+            font-size: 50px;
+            color: white;
+
+        }
+
+
+        .banner {
+            background-image: url("Landingbus.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 250px;
+            filter: brightness(0.4);    
+        }
+        
+        
+        
+        .middle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 400px;
+
+        }
+
+        .middle .search-ticket{
+            width: 500px;
+            height: 250px;
+            border: 1px solid black;
+            margin: 10px 0px 10px 0px;
+            
+        }
+
+        .input-box{
+            margin: 25px 100px;
+        }
+
+        .input-box label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .input-box input{
+            height: 25px;
+            width: 300px;
+
+        }
+
+        .search-ticket .btn-search{
+            height: 35px;
+            width: 125px;
+            margin: 0 190px;
+            background: #000;
+            color: white;
+        }
+
+
+        .middle .options{
+            height: 200px;
+            width: 250px;
+            margin: 0 30px;
+           
+        }
+
+        .options .option button{
+            width: 250px;
+            height: 40px;
+            margin: 0 0 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       .options img{
+        height: 20px;
+        width: 20px;
+        margin-right: 35px;
+        }
+    
+        .btn-prepost img{
+           margin-right: 25px;
+       }
+       
+        .btn-print img{
+           margin-right: 50px;
+       }
+
+        footer{
+            background: #000;
+            height: 80px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 90%;
+
+
+        }
+
+        footer .lines{
+            padding-left: 30px;
+        }
+
+        footer .icons ul li{
+            display: flex;
+            display: inline-block;
+            left: 10px;
+            margin: 0 20px;
+            
+        }
+
+        footer .icons{
+            margin-left: 220px;
+            margin-right: 30px;
+    
+        }
+        ion-icon[name="call-outline"], ion-icon[name="logo-youtube"], ion-icon[name="logo-facebook"],  ion-icon[name="logo-instagram"]{
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="logo"><img src="Images\kumta_logostics.png" alt=""></div>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="manageBookings.html">Manage Bookings</a></li>
+                <li><a href="schedules.html">Schedules</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner"></div>
+    <h2>Manage Bookings</h2>
+
+
+
+   <div class="middle">
+        <div class="search-ticket">
+            <div class="input-box">
+                <label> Ticket Number</label>
+                <input type="text">
+            </div>
+            <div class="input-box">
+                <label>Email/Phone Number</label>
+                <input type="text">
+            </div>
+            <button class="btn-search">Search</button>
+
+        </div>
+
+        <div class="options">
+            <div class="option update">
+                <button class="btn-update"><img src="Images\update.png" alt=""><span>Update the Ticket</span></button>
+            </div>
+            <div class="option cancel">
+                <button class="btn-cancel"><img src="Images\cancel.png"alt=""><span>Cancel the Ticket</span></button>
+            </div>
+            <div class="option prepost">
+                <button class="btn-prepost"><img src="Images\update1.png"  alt=""><span>Pre/Post the Ticket</span></button>
+            </div>
+            <div class="option print">
+                <button class="btn-print"><img src="Images\printer.png"  alt=""><span>Print the Ticket</span></button>
+            </div>
+        </div>
+   </div>
+
+
+
+
+    <footer>
+        <div class="lines">
+            <p>&copy rights reserved. Kumta Logistics India</p>
+            <p>private limites</p>
+        </div>
+
+        <div class="icons">
+            <ul>
+                <li><ion-icon name="logo-youtube"></ion-icon></li>
+                <li><ion-icon name="logo-facebook"></ion-icon></li>
+                <li><ion-icon name="logo-instagram"></ion-icon></li>
+                <li><ion-icon name="call-outline"></ion-icon></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

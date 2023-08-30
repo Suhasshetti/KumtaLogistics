@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+
+    header {
+            background: #000;
+        }
+
+        header nav .logo {
+            display: flex;
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        header nav ul {
+            display: flex;
+            align-items: center;
+
+        }
+
+        ul li{
+            list-style: none;
+        }
+
+        img {
+            width: 100px;
+            height: 70px;
+            color: red;
+
+
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            list-style: none;
+            margin: 10px 60px;
+            color: white;
+            font-size: 20px;
+        }
+
+        nav ul li a:hover{
+        border-bottom: 1px solid rgb(220, 89, 89);
+        color: rgb(220, 89, 89);
+
+    }
+    
+   .bg{
+    background-color: rgba(0, 0, 255, 0.767);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   } 
+   .bg p{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+   }
+
+    nav ul li:hover{
+        color: wheat;
+        text-decoration: underline;
+    }
+    .insta{
+        margin-left: 850px;
+    }
+    .insta img{
+        width: 90px;
+        height: 50px;
+        margin-left: 850px;
+        display: flex;
+        display: inline-block;
+        margin: 20px;
+    }
+    table{
+        margin : 20px 0;
+        border-collapse: collapse;
+        width: 100%;
+       
+        /* background-color:rgb(190, 189, 188); */
+    }
+    th, td{
+        border: 1px solid rgba(12, 12, 12, 0.39) ;
+
+        padding: 8px;
+        text-align: center;
+    }
+    footer{
+            background: #000;
+            height: 60px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 90%;
+
+
+        }
+
+        footer .lines{
+            padding-left: 30px;
+        }
+
+        footer .icons ul li{
+            display: flex;
+            display: inline-block;
+            left: 10px;
+            margin: 0 20px;
+            
+        }
+
+        footer .icons{
+            margin-left: 220px;
+            margin-right: 30px;
+    
+        }
+        ion-icon[name="call-outline"], ion-icon[name="logo-youtube"], ion-icon[name="logo-facebook"],  ion-icon[name="logo-instagram"]{
+            font-size: 24px;
+        }
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="logo"><img src="Images\kumta_logostics.png" alt=""></div>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="manageBookings.html">Manage Bookings</a></li>
+                <li><a href="schedules.html">Schedules</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+   <div class="bg"><p>SCHEDULES</p></div>
+    <table>
+        <tr>
+            <th>Service No</th>
+            <th>Route</th>
+            <th>Coach Type</th>
+            <th>Fare</th>
+            <th>Departure Time</th>
+            <th>Journey Time</th>
+    </tr>
+    <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Gokarna</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:15hrs</td>
+      </tr> 
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Honnavar</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>9:30hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Manki</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>9:15hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Bhatkal</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:30hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Sirsi</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:00hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Bhatkal</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:25hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Kundapur</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:25hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Gokarna</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:25hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Kumta</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:25hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Karwar</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:25hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Sirsi</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:25hrs</td>
+      </tr>
+      <tr>
+        <td>BANGALORE BHATKAL ROUTE NO-8</td>
+        <td>Bangalore to Honnavar</td>
+        <td>2+1, Tata Seater/Sleeper,Non-AC, Non-Video (40 seats)</td>
+        <td>₹ 700/ 850/ 800/ 850</td>
+        <td>21:15</td>
+        <td>10:25hrs</td>
+      </tr>
+      
+      
+    </table>
+   </div>
+   <footer>
+    <div class="lines">
+        <p>&copy rights reserved. Kumta Logistics India</p>
+        <p>private limites</p>
+    </div>
+
+    <div class="icons">
+        <ul>
+            <li><ion-icon name="logo-youtube"></ion-icon></li>
+            <li><ion-icon name="logo-facebook"></ion-icon></li>
+            <li><ion-icon name="logo-instagram"></ion-icon></li>
+            <li><ion-icon name="call-outline"></ion-icon></li>
+        </ul>
+    </div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
